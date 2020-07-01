@@ -1,0 +1,308 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={Level 4 Yearbook 2019-2020},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apalike}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{Level 4 Yearbook 2019-2020}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+  \subtitle{School of Psychology, University of Glasgow}
+  \author{}
+    \preauthor{}\postauthor{}
+    \date{}
+    \predate{}\postdate{}
+  
+\usepackage{booktabs}
+
+\newenvironment{danger}
+    {
+    \hline\\
+    }
+    { 
+    \\\\\hline
+    }
+    
+\newenvironment{warning}
+    {
+    \hline\\
+    }
+    { 
+    \\\\\hline
+    }
+    
+\newenvironment{info}
+    {
+    \hline\\
+    }
+    { 
+    \\\\\hline
+    }
+    
+\newenvironment{try}
+    {
+    \hline\\
+    }
+    { 
+    \\\\\hline
+    }
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{overview}{%
+\chapter*{Overview}\label{overview}}
+\addcontentsline{toc}{chapter}{Overview}
+
+Level 4 Yearbook for the University of Glasgow School of Psychology 2019-2020.
+
+\textbf{Programme Lead:} Heather Cleland-Woods
+
+\textbf{Aim:} Blah Blah Blah Blah
+
+\textbf{Contact:} Blah Blah Blah, contact \href{mailto:heather.woods@glasgow.ac.uk}{Heather Cleland-Woods}.
+
+\hypertarget{foreword}{%
+\chapter*{Foreword}\label{foreword}}
+\addcontentsline{toc}{chapter}{Foreword}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam. Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl adipiscing sapien, sed malesuada diam lacus eget erat. Cras mollis scelerisque nunc. Nullam arcu. Aliquam consequat. Curabitur augue lorem, dapibus quis, laoreet et, pretium ac, nisi. Aenean magna nisl, mollis quis, molestie eu, feugiat in, orci. In hac habitasse platea dictumst.
+
+lots of love
+
+Heather
+
+\hypertarget{images}{%
+\chapter*{Images}\label{images}}
+\addcontentsline{toc}{chapter}{Images}
+
+In this section you will find images and photos that people submitted to represent their year!
+
+{\textbf{By Mandy Norrbo}}
+
+{\textbf{By Mandy Norrbo}}
+
+\hypertarget{letters}{%
+\chapter*{Letters}\label{letters}}
+\addcontentsline{toc}{chapter}{Letters}
+
+In this section you will find letters and blogs that people submitted to represent their year!
+
+\hypertarget{morgan-daniel}{%
+\subsection*{Morgan Daniel}\label{morgan-daniel}}
+\addcontentsline{toc}{subsection}{Morgan Daniel}
+
+\begin{info2}
+Dear Class of 2020,
+
+When thinking of a way to summarise my time at the University of Glasgow
+and an appropriate way to pay tribute to my experience as a Psychology
+student, I really struggled to think of how exactly that is possible.
+Glasgow, as both a university and a city, has given me far more than I
+know how to express through words (or any other of the more creative
+methods suggested). Instead I want to take the opportunity to say thank
+you to a few people who deserve recognition for helping me struggle
+through until this point.
+
+Firstly, to all of my classmates, thank you so much for everything over
+the past 4 years. I literally would not be at this stage without all of
+your support, the tears that we have shared, the good luck messages and
+post-exam pints.
+
+Thank you to the psychology and neuroscience students for all of their
+support, particularly over the past 2 years. We have collectively
+experienced a LOT of stress and I am constantly inspired by the work
+ethic and academic ability that every single one of you have. I am so
+thankful to have made such wonderful friends and to have been there for
+each other throughout this degree. Never again do I want to experience
+the level of stress and sleep deprivation that 3rd year caused, I'm glad
+that all of you were by my side.
+
+A huge thankyou is owed to all of the students who made this final year
+of university so enjoyable, despite disruption from strikes and a global
+pandemic. My dissertation group were amazing and I loved our weekly cups
+of tea and frequent rants (mostly dissertation related, but not
+exclusively). I owe so much to my dissertation supervisor, Niamh Stack,
+not only for the chocolate ginger biscuits, but also for her guidance
+throughout the year. I also feel blessed to have worked with some of the
+third year students who I otherwise likely would not have met. Groupwork
+was far more enjoyable with such a lovely bunch of people.
+
+My dissertation participants, staff working in a care home local to Loch
+Lomond, deserve a massive shout-out, not only for taking part in my
+dissertation and for being such a great laugh, but also for everything
+that they are currently experiencing. COVID-19 has caused a crisis among
+UK care homes, and the staff at this care home in particular have been
+amazing in their handling of the situation. They have provided updates
+on residents, kept them busy by doing arts and crafts, and have been
+actively updating the facebook page to show families that their
+relatives are doing well and are in good hands. I have to say that none
+of this surprises me having met such lovely people during the process of
+my dissertation and having witnessed the care that they provide. They
+really are remarkable people and deserve to be recognised for the work
+they do every single day.
+
+Finally, to the staff within psychology and neuroscience, thank you for
+all of your help. I have learned so much from all of you and have always
+been given your full support (thank you for always providing a reference
+when I asked for so many of them). Lecturers, course co-ordinators,
+admin staff and others were always so positive and encouraging.
+
+I am so sad that we didn't get to say goodbye as a class as we had
+hoped, but I hope that we get our chance at a later date when we are all
+slightly more grown up, perhaps almost professional, adults\ldots{}? I
+will miss you all and I feel so lucky to have been part of this class.
+See you in beer bar as soon as possible.
+
+Morgan Daniel x
+\end{info2}
+
+\hypertarget{conference-abstracts}{%
+\chapter*{Conference Abstracts}\label{conference-abstracts}}
+\addcontentsline{toc}{chapter}{Conference Abstracts}
+
+In this section you will the abstracts submitted for each dissertation, arranged by Surname.
+
+\hypertarget{surnames-beginning-with-a}{%
+\section*{Surnames beginning with A}\label{surnames-beginning-with-a}}
+\addcontentsline{toc}{section}{Surnames beginning with A}
+
+\textbf{Name:} Ana Bacallado Almandoz
+
+\textbf{Supervisor:} Marios Philiastides
+
+\textbf{Title:} Influence of Sustainability on Preference-Based Decision Making
+
+Abstract: Sustainability has become an important influence on consumer choice. Thus, the purpose of this study is to investigate how information on sustainability affects consumer purchasing behaviours. The participants rated clothing items based on their personal preferences. Then, they completed a preference-based decision-making task, which consisted of choosing amongst two different clothing items. In half of the trials information on the itemsâ€™ sustainability was also presented. In the end, participants completed a self-reported questionnaire where they revealed their attitudes and behaviours towards sustainability. The results suggest that information on sustainability and consumer preferences are integrated into a single source of evidence during the decision-making process. Therefore, suggesting that sustainability plays a crucial role in consumer purchasing behaviours as a result of the sustainability bias affecting the decision-making process. The findings of this study may have major implications not only on understanding how sustainability information alters consumer choices, but also in prospective marketing strategies.
+
+\textbf{Tag:} Cognition; Decision-Making
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\textbf{Name:} Ana Bacallado Almandoz
+
+\textbf{Supervisor:} Marios Philiastides
+
+\textbf{Title:} Influence of Sustainability on Preference-Based Decision Making
+
+Abstract: Sustainability has become an important influence on consumer choice. Thus, the purpose of this study is to investigate how information on sustainability affects consumer purchasing behaviours. The participants rated clothing items based on their personal preferences. Then, they completed a preference-based decision-making task, which consisted of choosing amongst two different clothing items. In half of the trials information on the itemsâ€™ sustainability was also presented. In the end, participants completed a self-reported questionnaire where they revealed their attitudes and behaviours towards sustainability. The results suggest that information on sustainability and consumer preferences are integrated into a single source of evidence during the decision-making process. Therefore, suggesting that sustainability plays a crucial role in consumer purchasing behaviours as a result of the sustainability bias affecting the decision-making process. The findings of this study may have major implications not only on understanding how sustainability information alters consumer choices, but also in prospective marketing strategies.
+
+\textbf{Tag:} Cognition; Decision-Making
+
+\hypertarget{surnames-beginning-with-b}{%
+\section*{Surnames beginning with B}\label{surnames-beginning-with-b}}
+\addcontentsline{toc}{section}{Surnames beginning with B}
+
+\textbf{Name:} Ana Bacallado Almandoz
+
+\textbf{Supervisor:} Marios Philiastides
+
+\textbf{Title:} Influence of Sustainability on Preference-Based Decision Making
+
+Abstract: Sustainability has become an important influence on consumer choice. Thus, the purpose of this study is to investigate how information on sustainability affects consumer purchasing behaviours. The participants rated clothing items based on their personal preferences. Then, they completed a preference-based decision-making task, which consisted of choosing amongst two different clothing items. In half of the trials information on the itemsâ€™ sustainability was also presented. In the end, participants completed a self-reported questionnaire where they revealed their attitudes and behaviours towards sustainability. The results suggest that information on sustainability and consumer preferences are integrated into a single source of evidence during the decision-making process. Therefore, suggesting that sustainability plays a crucial role in consumer purchasing behaviours as a result of the sustainability bias affecting the decision-making process. The findings of this study may have major implications not only on understanding how sustainability information alters consumer choices, but also in prospective marketing strategies.
+
+\textbf{Tag:} Cognition; Decision-Making
+
+\begin{center}\rule{0.5\linewidth}{\linethickness}\end{center}
+
+\hypertarget{all-the-best}{%
+\chapter*{All the Best}\label{all-the-best}}
+\addcontentsline{toc}{chapter}{All the Best}
+
+\textbf{Don't be strangers, stay in touch, and if you ever need us, contact us on\ldots{}..}
+
+\bibliography{packages.bib}
+
+
+\end{document}
