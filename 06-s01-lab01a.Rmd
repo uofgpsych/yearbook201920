@@ -143,3 +143,17 @@
 </div>
 
 ---
+
+<div>
+<span style = "float: right;">**Hannah Mulvihill**</span>
+<br>
+<img src="images/hannah.jpg"> 
+</div>
+
+
+<div>
+<br>
+</div>
+
+---
+
