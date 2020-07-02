@@ -19,7 +19,7 @@ Yearbook for the University of Glasgow School of Psychology 2019-2020.
 
 **Programme Lead:** Dr Heather Cleland Woods.
 
-We hope you enjoy these snapshots of your time studying Psychology at Glasgow. If you have anything images, stories, photos, or summaries of your dissertation you would like to add or contribute, please send it via email to [heather.woods@glasgow.ac.uk](mailto:heather.woods@glasgow.ac.uk).
+We hope you enjoy these snapshots of your time studying Psychology at Glasgow. If you have any images, stories, photos, or summaries of your dissertation you would like to add or contribute, please send it via email to [heather.woods@glasgow.ac.uk](mailto:heather.woods@glasgow.ac.uk).
 
 ---
 
