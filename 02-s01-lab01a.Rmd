@@ -211,4 +211,17 @@ In this section you will find images and photos that people submitted to represe
 
 ---
 
+<div>
+<span style = "float: right;">**Calum Lindsay, Shahrukh Gill, Kalina Stefanova and Magdalena Qenani **</span>
+<br>
+<img src="images/4_Basic_Student_Emotions.png"> 
+</div>
+
+<div>
+<br>
+</div>
+
+---
+
+
 
