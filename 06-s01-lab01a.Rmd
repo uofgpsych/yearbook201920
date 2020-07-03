@@ -157,3 +157,15 @@
 
 ---
 
+<div>
+<span style = "float: right;">**Rebekah Weir**</span>
+<br>
+<img src="images/Rebekah_grad.jpeg"> 
+</div>
+
+
+<div>
+<br>
+</div>
+
+---
